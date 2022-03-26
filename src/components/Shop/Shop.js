@@ -33,15 +33,6 @@ const Shop = () => {
     }
 
 
-    const chooseForMe = () => {
-        const newCart = cart
-        const randomCart = newCart[Math.floor(newCart.length * Math.random())]
-        const newRandom = [randomCart];
-        setCart(newRandom)
-        console.log(newRandom);
-    }
-
-
     const chooseAgain = () => {
         const newClearCart = [];
         setCart(newClearCart);
@@ -66,7 +57,7 @@ const Shop = () => {
 
             <div className="cart-container">
                 <div className='cart'>
-                    <Cart key={cart.id} cart={cart} chooseAgain={chooseAgain} chooseForMe={chooseForMe}></Cart>
+                    <Cart key={cart.id} cart={cart} chooseAgain={chooseAgain} ></Cart>
                 </div>
             </div>
 

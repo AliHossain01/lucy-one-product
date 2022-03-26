@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css';
 import { BsFillCartFill } from "react-icons/bs";
+import Item from '../Item/Item';
 
 const Cart = (props) => {
-    const { cart, chooseAgain, chooseForMe, name, price, image } = props;
+    const { cart, chooseAgain, name, price, image } = props;
     //const { id, name, price, image } = product;
     //console.log(cart);
+    const [fish, setFish] = useState([])
+    const chooseForMe = (cart) => {
+        const selectFish = (cart[Math.floor(Math.random() * cart.length)])
+        setFish(selectFish)
+    }
+    let product = []
+    for (const fish of cart) {
+        product = [...product, fish]
+    }
 
 
     return (
@@ -20,9 +30,10 @@ const Cart = (props) => {
                 </div>
             ))}
             <div>
-                <button onClick={chooseForMe} className='button button1'>CHOOSE 1 FOR ME</button>
-
+                <button onClick={() => chooseForMe(cart)} className='button button1'>CHOOSE 1 FOR ME</button>
                 <button onClick={chooseAgain} className='button button3'>CHOOSE AGAIN</button>
+
+                <Item fish={fish}></Item>
             </div>
 
 
@@ -32,5 +43,4 @@ const Cart = (props) => {
 };
 
 export default Cart;
-
 
