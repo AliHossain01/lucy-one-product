@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Boro Puti",
+    "price": 600,
+    "image": "https://raw.githubusercontent.com/AliHossain01/fish/main/images/boroputi.png"
+  },
+  {
+    "id": 2,
+    "name": "Bowal",
+    "price": 1050,
+    "image": "https://raw.githubusercontent.com/AliHossain01/fish/main/images/bowal.png"
+  },
+  {
+    "id": 3,
+    "name": "Chada",
+    "price": 350,
+    "image": "https://raw.githubusercontent.com/AliHossain01/fish/main/images/chada.png"
+  },
+  {
+    "id": 4,
+    "name": "Chala",
+    "price": 700,
+    "image": "https://raw.githubusercontent.com/AliHossain01/fish/main/images/chala.png"
+  },
+  {
+    "id": 5,
+    "name": "Chingri",
+    "price": 500,
+    "image": "https://raw.githubusercontent.com/AliHossain01/fish/main/images/chingri.png"
+  },
+  {
+    "id": 6,
+    "name": "Ghee",
+    "price": 1100,
+    "image": "https://raw.githubusercontent.com/AliHossain01/fish/main/images/ghee.png"
+  },
+  {
+    "id": 7,
+    "name": "Guci",
+    "price": 1650,
+    "image": "https://raw.githubusercontent.com/AliHossain01/fish/main/images/guchi.png"
+  },
+  {
+    "id": 8,
+    "name": "Katla",
+    "price": 500,
+    "image": "https://raw.githubusercontent.com/AliHossain01/fish/main/images/katla.png"
+  },
+  {
+    "id": 9,
+    "name": "Shol",
+    "price": 900,
+    "image": "https://raw.githubusercontent.com/AliHossain01/fish/main/images/shol.png"
+  },
+  {
+    "id": 10,
+    "name": "Shoto Puti",
+    "price": 350,
+    "image": "https://raw.githubusercontent.com/AliHossain01/fish/main/images/sotoputi.png"
+  },
+  {
+    "id": 11,
+    "name": "Tangra",
+    "price": 800,
+    "image": "https://raw.githubusercontent.com/AliHossain01/fish/main/images/tangra.png"
+  }
+]
